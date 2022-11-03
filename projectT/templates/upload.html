@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>CAT or DOG classifier</title>
+    <link rel="stylesheet" href="../static/style_cat_or_dog.css">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col">
+
+      <h1 class="heading">CAT or DOG Classifier</h1>
+      <hr>
+
+      <form action="/upload-image" method="POST" enctype="multipart/form-data">
+
+        <div class="form-group">
+            <h2 class="h2">PLEASE ENTER THE PICTURE</h2>
+          <div class="custom-file">
+            <input type="file" oninput="filesize(this);" class="custom-file-input" name="image" id="image"  accept="image/*" capture required>
+            <label class="custom-file-label" for="image">*IMAGE</label>
+          </div>
+        </div>
+        <p class="P">
+            <button type="submit">PREDICT</button></p>
+          <hr>
+          <h1 class="h2">{{prediction_text}}</h1> 
+      </form>
+
+    </div>
+  </div>
+</div>
+<script>
+
+  function filesize(elem){
+    document.cookie = `filesize=${elem.files[0].size}`
+  }
+
+</script>
+
+</body>
+</html>

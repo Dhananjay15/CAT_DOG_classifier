@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url(preview.jpg);
+    background-size: auto;
+    padding: 15px;
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
+.container{
+    background-image: url(istockphoto-1169439839-612x612.jpg);
+    padding: 5px 20px 15px 20px;
+    border-radius: 14px;
+    height: 15cm;
+    width: 20cm;
+    margin: auto;
+}
+.heading{
+    background-color: seashell;
+    color: orangered;
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.h2{
+    background-color: seashell;
+    color:purple;
+    font-size: 170%;
+}
+p{
+    background-color: seashell;
+}
+input[type=submit]{
+    background-color: seashell;
+    border: none;
+    color:orange;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration-color: salmon;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=file]{
+    background-color: seashell;
+    border: none;
+    color:purple;
+    padding: 10px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+.h3{
+    background-color: seashell;
+    color:purple;
+    font-size: 170%;
+}
+input[type=button]{
+    background-color:blue;
+    border: none;
+    color:purple;
+    padding: 10px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 2px 2px;
+    cursor: pointer;
+}
